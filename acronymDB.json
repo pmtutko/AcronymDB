@@ -1,0 +1,48 @@
+{
+  "product": "Acronym Database",
+  "version": 0.5,
+  "releaseDate": "2017-08-11T00:00:00.000Z",
+  "defaultOutpath": "C:\\Temp",
+  "defaultOutfile": "AcronymTable.docx",
+  "defaultFormat": "TableMedium13",
+  "database": [
+    {
+      "abbreviation": "COTS",
+      "ignore": true,
+      "defaultindex" : 0,
+      "fulltext": [
+        "Commercial Off The Shelf",
+        "Contractor Off The Shelf"
+      ]
+    },
+    {
+      "abbreviation": "RFP",
+      "ignore": true,
+      "defaultindex" : 0,
+      "fulltext": [
+        "Request For Proposal"
+      ]
+    }
+  ],
+  "profile": [
+    {
+      "name": "DESS",
+      "date": "2017-08-14T21:30:50.951Z",
+      "userid": "pmtutko",
+      "outpath": "",
+      "outfile": "",
+      "format": "",
+      "associatedFiles": [
+        "c:\\dev\\temp.docx",
+        "c:\\temp\\doc.docx"
+      ],
+      "database": [
+        {
+          "abbreviation": "COTS",
+          "ignore": true,
+          "fullindex": 1
+        }
+      ]
+    }
+  ]
+}
