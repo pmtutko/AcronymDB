@@ -2,25 +2,2985 @@
   "product": "Acronym Database",
   "version": 0.5,
   "releaseDate": "2017-08-11T00:00:00.000Z",
-  "defaultOutpath": "C:\\Temp",
-  "defaultOutfile": "AcronymTable.docx",
-  "defaultFormat": "TableMedium13",
+  "options": {
+	  "defaultOutpath": ".",
+	  "defaultOutfile": "AcronymTable.docx",
+	  "defaultFormat": "TableMedium13",
+	  "autoaddDB": true,
+      "requireparens": true,
+	  "requireuppercase": true,
+	  "allowampersand": true,
+	  "allowdash": true,
+	  "allowperiod": false,	
+	  "sortascending": true
+  },
   "database": [
     {
       "abbreviation": "COTS",
       "ignore": true,
-      "defaultindex" : 0,
+      "defaultindex": 0,
       "fulltext": [
-        "Commercial Off The Shelf",
-        "Contractor Off The Shelf"
+        "Commercial Off The Shelf"
+      ]
+    },
+    {
+      "abbreviation": "AAR",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "After Action Report"
+      ]
+    },
+    {
+      "abbreviation": "ACAT",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Acquisition Category"
+      ]
+    },
+    {
+      "abbreviation": "ACO",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Administrative Contracting Officer"
+      ]
+    },
+    {
+      "abbreviation": "ACQ",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Acquisition"
+      ]
+    },
+    {
+      "abbreviation": "ACS",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Assistant Chief of Staff"
+      ]
+    },
+    {
+      "abbreviation": "ACWP",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Actual Cost of Work Performed"
+      ]
+    },
+    {
+      "abbreviation": "ADA",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Americans with Disabilities Act"
+      ]
+    },
+    {
+      "abbreviation": "ADPE",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Automated Data Processing Equipment"
+      ]
+    },
+    {
+      "abbreviation": "AI",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Action Item"
+      ]
+    },
+    {
+      "abbreviation": "ALIN",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Agreement Line Item Number"
+      ]
+    },
+    {
+      "abbreviation": "ANS",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "American National Standard"
+      ]
+    },
+    {
+      "abbreviation": "ANSI",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "American National Standards Institute"
+      ]
+    },
+    {
+      "abbreviation": "AVBS",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Automated Best Value System"
+      ]
+    },
+    {
+      "abbreviation": "B/L",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Bill of Lading"
+      ]
+    },
+    {
+      "abbreviation": "B&P",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Bid and Proposal"
+      ]
+    },
+    {
+      "abbreviation": "BAA",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Broad Agency Announcement"
+      ]
+    },
+    {
+      "abbreviation": "BAC",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Budgeted Cost at Completion"
+      ]
+    },
+    {
+      "abbreviation": "BAFO",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Best and Final Offer"
+      ]
+    },
+    {
+      "abbreviation": "BAT",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Best Available Technology"
+      ]
+    },
+    {
+      "abbreviation": "BD",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Business Development"
+      ]
+    },
+    {
+      "abbreviation": "BDO",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Blanket Delivery Order"
+      ]
+    },
+    {
+      "abbreviation": "BMM",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Business Matchmaking"
+      ]
+    },
+    {
+      "abbreviation": "BOA",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Basic Ordering Agreement"
+      ]
+    },
+    {
+      "abbreviation": "BOS",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Business Opportunity Specialist"
+      ]
+    },
+    {
+      "abbreviation": "BPA",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Blanket Purchase Agreement"
+      ]
+    },
+    {
+      "abbreviation": "CA",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Cooperative Agreement"
+      ]
+    },
+    {
+      "abbreviation": "CAD",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Computer Assisted Design"
+      ]
+    },
+    {
+      "abbreviation": "CAGE",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Commercial and Government Entity"
+      ]
+    },
+    {
+      "abbreviation": "CAO",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Congressional Affairs Office"
+      ]
+    },
+    {
+      "abbreviation": "CAS",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Cost Accounting Standards"
+      ]
+    },
+    {
+      "abbreviation": "CBI",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Confidential Business Information"
+      ]
+    },
+    {
+      "abbreviation": "CBO",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Congressional Budget Office"
+      ]
+    },
+    {
+      "abbreviation": "CCDR",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Contract Cost Data Report"
+      ]
+    },
+    {
+      "abbreviation": "CCR",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Central Contractor Registration"
+      ]
+    },
+    {
+      "abbreviation": "CDD",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Contract Delivery Date"
+      ]
+    },
+    {
+      "abbreviation": "CDRL",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Contract Data Requirements List"
+      ]
+    },
+    {
+      "abbreviation": "CEA",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Cost Effective Analysis"
+      ]
+    },
+    {
+      "abbreviation": "CFR",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Code of Federal Regulations"
+      ]
+    },
+    {
+      "abbreviation": "CFSR",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Contract Funds Status Report"
+      ]
+    },
+    {
+      "abbreviation": "CICA",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Competition in Contracting Act"
+      ]
+    },
+    {
+      "abbreviation": "CID",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Commercial Item Description"
+      ]
+    },
+    {
+      "abbreviation": "CIO",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Chief Information Officer"
+      ]
+    },
+    {
+      "abbreviation": "CLIN",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Contract Line Item Number"
+      ]
+    },
+    {
+      "abbreviation": "CM",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Configuration Management"
+      ]
+    },
+    {
+      "abbreviation": "CMM",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Capability Maturity Model"
+      ]
+    },
+    {
+      "abbreviation": "CMMI",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Capability Maturity Model-Integrated"
+      ]
+    },
+    {
+      "abbreviation": "CMO",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Contract Management Office"
+      ]
+    },
+    {
+      "abbreviation": "CMT",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Contract Management Team"
+      ]
+    },
+    {
+      "abbreviation": "CO",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Contracting Officer"
+      ]
+    },
+    {
+      "abbreviation": "COB",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Close of Business"
+      ]
+    },
+    {
+      "abbreviation": "CONUS",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Continental United States"
+      ]
+    },
+    {
+      "abbreviation": "COR",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Contracting Officer Representative"
+      ]
+    },
+    {
+      "abbreviation": "COTR",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Contracting Officer\u2019s Technical Representative"
+      ]
+    },
+    {
+      "abbreviation": "CPAF",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Cost Plus Award Fee"
+      ]
+    },
+    {
+      "abbreviation": "CPARS",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Contractor Performance Assessment Reporting System"
+      ]
+    },
+    {
+      "abbreviation": "CPFF",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Cost Plus Fixed Fee"
+      ]
+    },
+    {
+      "abbreviation": "CPIF",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Cost Plus Incentive Fee"
+      ]
+    },
+    {
+      "abbreviation": "CPN",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Contract Payment Notice"
+      ]
+    },
+    {
+      "abbreviation": "CPR",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Cost Performance Report"
+      ]
+    },
+    {
+      "abbreviation": "CRADA",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Cooperative Research and Development Agreement"
+      ]
+    },
+    {
+      "abbreviation": "CY",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Calendar Year"
+      ]
+    },
+    {
+      "abbreviation": "DACA",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Days After Contract Award"
+      ]
+    },
+    {
+      "abbreviation": "DARO",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Days After Receipt of Order"
+      ]
+    },
+    {
+      "abbreviation": "DARPA",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Defense Advanced Research Projects Agency"
+      ]
+    },
+    {
+      "abbreviation": "DCAA",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Defense Contract Audit Agency"
+      ]
+    },
+    {
+      "abbreviation": "DCMA",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Defense Contract Management Agency"
+      ]
+    },
+    {
+      "abbreviation": "DEL",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Delivery"
+      ]
+    },
+    {
+      "abbreviation": "DFARS",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Defense Federal Acquisition Regulation Supplement"
+      ]
+    },
+    {
+      "abbreviation": "DHS",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Department of Homeland Security"
+      ]
+    },
+    {
+      "abbreviation": "DI",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Document Identifier"
+      ]
+    },
+    {
+      "abbreviation": "DIC",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Document Identifier Code"
+      ]
+    },
+    {
+      "abbreviation": "DID",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Data Item Description"
+      ]
+    },
+    {
+      "abbreviation": "DLA",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Defense Logistics Agency"
+      ]
+    },
+    {
+      "abbreviation": "DLH",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Direct Labor Hour"
+      ]
+    },
+    {
+      "abbreviation": "DOC",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Department of Commerce"
+      ]
+    },
+    {
+      "abbreviation": "DOD",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Department of Defense"
+      ]
+    },
+    {
+      "abbreviation": "DOE",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Department of Energy"
+      ]
+    },
+    {
+      "abbreviation": "DOI",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Department of the Interior"
+      ]
+    },
+    {
+      "abbreviation": "DOJ",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Department of Justice"
+      ]
+    },
+    {
+      "abbreviation": "DOL",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Department of Labor"
+      ]
+    },
+    {
+      "abbreviation": "DOS",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Department of State"
+      ]
+    },
+    {
+      "abbreviation": "DOT",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Department of Transportation"
+      ]
+    },
+    {
+      "abbreviation": "DUNS",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Data Universal Numbering System"
+      ]
+    },
+    {
+      "abbreviation": "DVD",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Direct Vendor Delivery"
+      ]
+    },
+    {
+      "abbreviation": "DZ",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Dozen"
+      ]
+    },
+    {
+      "abbreviation": "EA",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Each"
+      ]
+    },
+    {
+      "abbreviation": "EB",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Electronic Business"
+      ]
+    },
+    {
+      "abbreviation": "EC",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Electronic Commerce"
+      ]
+    },
+    {
+      "abbreviation": "ECP",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Engineering Change Proposal"
+      ]
+    },
+    {
+      "abbreviation": "EDD",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Estimated Delivery Date"
+      ]
+    },
+    {
+      "abbreviation": "EDI",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Electronic Data Interchange"
+      ]
+    },
+    {
+      "abbreviation": "EDOP",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Expedited Delivery Order Process"
+      ]
+    },
+    {
+      "abbreviation": "EEO",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Equal Employment Opportunity"
+      ]
+    },
+    {
+      "abbreviation": "EFT",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Electronic Funds Transfer"
+      ]
+    },
+    {
+      "abbreviation": "EO",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Executive Order"
+      ]
+    },
+    {
+      "abbreviation": "EOM",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "End of Month"
+      ]
+    },
+    {
+      "abbreviation": "ETA",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Estimated Time of Arrival"
+      ]
+    },
+    {
+      "abbreviation": "ETC",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Estimate to Complete"
+      ]
+    },
+    {
+      "abbreviation": "FAQ",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Frequently Asked Question"
+      ]
+    },
+    {
+      "abbreviation": "FAR",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Federal Acquisition Regulation"
+      ]
+    },
+    {
+      "abbreviation": "FAS",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Federal Acquisition Service"
+      ]
+    },
+    {
+      "abbreviation": "FASA",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Federal Acquisition Streamlining Act"
+      ]
+    },
+    {
+      "abbreviation": "FFP",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Firm Fixed Price"
+      ]
+    },
+    {
+      "abbreviation": "FFRDC",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Federally Funded Research and Development Center"
+      ]
+    },
+    {
+      "abbreviation": "FIPS",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Federal Information Processing Standards"
+      ]
+    },
+    {
+      "abbreviation": "FISMA",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Federal Information Security Management Act"
+      ]
+    },
+    {
+      "abbreviation": "FLSA",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Fair Labor Standards Act"
+      ]
+    },
+    {
+      "abbreviation": "FMS",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Foreign Military Sales"
+      ]
+    },
+    {
+      "abbreviation": "FMV",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Fair Market Value"
+      ]
+    },
+    {
+      "abbreviation": "FOIA",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Freedom of Information Act"
+      ]
+    },
+    {
+      "abbreviation": "FPI",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Fixed Price Incentive"
+      ]
+    },
+    {
+      "abbreviation": "FPL",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Federal Procurement List"
+      ]
+    },
+    {
+      "abbreviation": "FSC",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Federal Supply Classification"
+      ]
+    },
+    {
+      "abbreviation": "FSN",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Federal Stock Number"
+      ]
+    },
+    {
+      "abbreviation": "FSS",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Federal Supply Schedules"
+      ]
+    },
+    {
+      "abbreviation": "FTE",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Full Time Equivalent"
+      ]
+    },
+    {
+      "abbreviation": "FY",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Fiscal Year"
+      ]
+    },
+    {
+      "abbreviation": "FYI",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "For Your Information"
+      ]
+    },
+    {
+      "abbreviation": "G&A",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "General and Administrative"
+      ]
+    },
+    {
+      "abbreviation": "GAA",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "General Agency Agreement"
+      ]
+    },
+    {
+      "abbreviation": "GAO",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Government Accountability Office"
+      ]
+    },
+    {
+      "abbreviation": "GBL",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Government Bill of Lading"
+      ]
+    },
+    {
+      "abbreviation": "GFE",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Government Furnished Equipment"
+      ]
+    },
+    {
+      "abbreviation": "GFM",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Government Furnished Materials"
+      ]
+    },
+    {
+      "abbreviation": "GFP",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Government-Furnished Property"
+      ]
+    },
+    {
+      "abbreviation": "GOCO",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Government Owned, Contractor Operated"
+      ]
+    },
+    {
+      "abbreviation": "GPO",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Government Printing Office"
+      ]
+    },
+    {
+      "abbreviation": "GSA",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "General Services Administration"
+      ]
+    },
+    {
+      "abbreviation": "GSARS",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "General Services Acquisition Regulation Supplement"
+      ]
+    },
+    {
+      "abbreviation": "GWAC",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Government-wide Acquisition Contract"
+      ]
+    },
+    {
+      "abbreviation": "HBCUs",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Historically Black Colleges and Universities"
+      ]
+    },
+    {
+      "abbreviation": "HCA",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Head of Contracting Activity"
+      ]
+    },
+    {
+      "abbreviation": "HQ",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Headquarters"
+      ]
+    },
+    {
+      "abbreviation": "HR",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Human Resources"
+      ]
+    },
+    {
+      "abbreviation": "HUB",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Historically Underutilized Business"
+      ]
+    },
+    {
+      "abbreviation": "IA",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Information Assurance"
+      ]
+    },
+    {
+      "abbreviation": "IAW",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "In Accordance With"
+      ]
+    },
+    {
+      "abbreviation": "IDIQ",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Indefinite Delivery Indefinite Quantity"
+      ]
+    },
+    {
+      "abbreviation": "IFB",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Invitation for Bid"
+      ]
+    },
+    {
+      "abbreviation": "IG",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Inspector General"
+      ]
+    },
+    {
+      "abbreviation": "IQC",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Indefinite Quantity Contract"
+      ]
+    },
+    {
+      "abbreviation": "ISO",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "International Standards Organization (or International"
+      ]
+    },
+    {
+      "abbreviation": "ISSA",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Inter/Intra Service Support Agreement"
+      ]
+    },
+    {
+      "abbreviation": "IV&V",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Independent Validation and Verification"
+      ]
+    },
+    {
+      "abbreviation": "IT",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Information Technology"
+      ]
+    },
+    {
+      "abbreviation": "KM",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Knowledge Management"
+      ]
+    },
+    {
+      "abbreviation": "KSPH",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Keystrokes per Hour"
+      ]
+    },
+    {
+      "abbreviation": "LAN",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Local Area Network"
+      ]
+    },
+    {
+      "abbreviation": "LOA",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Letter of Offer and Acceptance"
+      ]
+    },
+    {
+      "abbreviation": "LOB",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Line of Business"
+      ]
+    },
+    {
+      "abbreviation": "LOE",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Level of Effort"
+      ]
+    },
+    {
+      "abbreviation": "LOP",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Letter of Procurement"
+      ]
+    },
+    {
+      "abbreviation": "LT",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Lot"
+      ]
+    },
+    {
+      "abbreviation": "M&IE",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Meals and Incidental Expense"
+      ]
+    },
+    {
+      "abbreviation": "MBDC",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Minority Business Development Center"
+      ]
+    },
+    {
+      "abbreviation": "MBE",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Minority Business Entrepreneur"
+      ]
+    },
+    {
+      "abbreviation": "MILSPEC",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Military Specification"
+      ]
+    },
+    {
+      "abbreviation": "MIL-STD",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Military Standard"
+      ]
+    },
+    {
+      "abbreviation": "MOA",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Memorandum of Agreement"
+      ]
+    },
+    {
+      "abbreviation": "MOU",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Memorandum of Understanding"
+      ]
+    },
+    {
+      "abbreviation": "NAICS",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "North American Industry Classification System"
+      ]
+    },
+    {
+      "abbreviation": "NARA",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "National Archives and Records Administration"
+      ]
+    },
+    {
+      "abbreviation": "NASA",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "National Aeronautics and Space Administration"
+      ]
+    },
+    {
+      "abbreviation": "NASFARS",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "National Aeronautics Space Administration FAR Supplement"
+      ]
+    },
+    {
+      "abbreviation": "NDI",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Non-Developmental Item"
+      ]
+    },
+    {
+      "abbreviation": "NIIN",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "National Item Identification Number"
+      ]
+    },
+    {
+      "abbreviation": "NIST",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "National Institute of Standards and Technology"
+      ]
+    },
+    {
+      "abbreviation": "NLT",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "No Later Than"
+      ]
+    },
+    {
+      "abbreviation": "NSN",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "National Stock Number"
+      ]
+    },
+    {
+      "abbreviation": "NTE",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Not to Exceed"
+      ]
+    },
+    {
+      "abbreviation": "O/A",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "On or About"
+      ]
+    },
+    {
+      "abbreviation": "OCONUS",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Outside the Continental United States"
+      ]
+    },
+    {
+      "abbreviation": "OCR",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Optical Character Recognition"
+      ]
+    },
+    {
+      "abbreviation": "OFPP",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Office of Federal Procurement Policy"
+      ]
+    },
+    {
+      "abbreviation": "OMB",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Office of Management and Budget"
+      ]
+    },
+    {
+      "abbreviation": "OPM",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Office of Personnel Management"
+      ]
+    },
+    {
+      "abbreviation": "OSDBU",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Office of Small and Disadvantaged Business Utilization"
+      ]
+    },
+    {
+      "abbreviation": "OSHA",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Occupational Safety and Health Administration"
+      ]
+    },
+    {
+      "abbreviation": "OWBO",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Office of Women\u2019s Business Ownership"
+      ]
+    },
+    {
+      "abbreviation": "P/N",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Part Number"
+      ]
+    },
+    {
+      "abbreviation": "PAR",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Payroll, Accounting and Reporting System"
+      ]
+    },
+    {
+      "abbreviation": "PCO",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Procuring Contracting Officer"
+      ]
+    },
+    {
+      "abbreviation": "PCR",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Procurement Center Representative"
+      ]
+    },
+    {
+      "abbreviation": "PEO",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Program Executive Officer"
+      ]
+    },
+    {
+      "abbreviation": "PES",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Professional Engineering Services"
+      ]
+    },
+    {
+      "abbreviation": "PID",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Procurement Item Description"
+      ]
+    },
+    {
+      "abbreviation": "PIN",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Personal Identification Number"
+      ]
+    },
+    {
+      "abbreviation": "PIV",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Personal Identity Verification"
+      ]
+    },
+    {
+      "abbreviation": "PK",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Package"
+      ]
+    },
+    {
+      "abbreviation": "PL",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Public Law"
+      ]
+    },
+    {
+      "abbreviation": "PMP",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Program Management Plan"
+      ]
+    },
+    {
+      "abbreviation": "PO",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Purchase Order"
+      ]
+    },
+    {
+      "abbreviation": "POA&M",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Plan of Action and Milestones"
+      ]
+    },
+    {
+      "abbreviation": "POC",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Point of Contact"
+      ]
+    },
+    {
+      "abbreviation": "PPIRS",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Past Performance Information Retrieval System"
+      ]
+    },
+    {
+      "abbreviation": "PR",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Pair; Peer Review(s); Purchase Request"
+      ]
+    },
+    {
+      "abbreviation": "PRDA",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Program Research and Development Announcement"
+      ]
+    },
+    {
+      "abbreviation": "QA",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Quality Assurance"
+      ]
+    },
+    {
+      "abbreviation": "QAB",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Quality Assurance Program"
+      ]
+    },
+    {
+      "abbreviation": "QBL",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Qualified Bidders List"
+      ]
+    },
+    {
+      "abbreviation": "QC",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Quality Control"
+      ]
+    },
+    {
+      "abbreviation": "QMS",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Quality Management System"
+      ]
+    },
+    {
+      "abbreviation": "QPL",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Qualified Products List"
+      ]
+    },
+    {
+      "abbreviation": "R&D",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Research and Development"
+      ]
+    },
+    {
+      "abbreviation": "RD&D",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Research, Development and Demonstration"
+      ]
+    },
+    {
+      "abbreviation": "RDD",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Required Delivery Date"
+      ]
+    },
+    {
+      "abbreviation": "RDDTE",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Research, Development, Demonstration, Testing and"
+      ]
+    },
+    {
+      "abbreviation": "RFB",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Request for Bid"
+      ]
+    },
+    {
+      "abbreviation": "RFI",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Request for Information"
+      ]
+    },
+    {
+      "abbreviation": "RFID",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Radio Frequency Identification"
       ]
     },
     {
       "abbreviation": "RFP",
-      "ignore": true,
-      "defaultindex" : 0,
+      "ignore": false,
+      "defaultindex": 0,
       "fulltext": [
-        "Request For Proposal"
+        "Request for Proposal"
+      ]
+    },
+    {
+      "abbreviation": "RFQ",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Request for Quotation"
+      ]
+    },
+    {
+      "abbreviation": "SADBUS",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Small and Disadvantaged Business Utilization Specialist"
+      ]
+    },
+    {
+      "abbreviation": "SAT",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "System Acceptance Test"
+      ]
+    },
+    {
+      "abbreviation": "SBA",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Small Business Administration"
+      ]
+    },
+    {
+      "abbreviation": "SBAC",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Small Business Advisory Committee"
+      ]
+    },
+    {
+      "abbreviation": "SBDC",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Small Business Development Center"
+      ]
+    },
+    {
+      "abbreviation": "SBIC",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Small Business Investment Company"
+      ]
+    },
+    {
+      "abbreviation": "SBIR",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Small Business Innovation Research"
+      ]
+    },
+    {
+      "abbreviation": "SBSA",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Small Business Set Aside"
+      ]
+    },
+    {
+      "abbreviation": "SDB",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Small Disadvantaged Business"
+      ]
+    },
+    {
+      "abbreviation": "SDV",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Service Disabled Veteran"
+      ]
+    },
+    {
+      "abbreviation": "SDVOSB",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Service-Disabled Veteran-Owned Small Business"
+      ]
+    },
+    {
+      "abbreviation": "SEC",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Securities and Exchange Commission"
+      ]
+    },
+    {
+      "abbreviation": "SF",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Standard Form"
+      ]
+    },
+    {
+      "abbreviation": "SIC",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Standard Industrial Classification Codes"
+      ]
+    },
+    {
+      "abbreviation": "SIN",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Special Item Number"
+      ]
+    },
+    {
+      "abbreviation": "SKN",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Stock Keeping Number"
+      ]
+    },
+    {
+      "abbreviation": "SKU",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Stock Keeping Unit"
+      ]
+    },
+    {
+      "abbreviation": "SOO",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Statement of Objectives"
+      ]
+    },
+    {
+      "abbreviation": "SOP",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Standard Operating Procedure"
+      ]
+    },
+    {
+      "abbreviation": "SOW",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Statement of Work"
+      ]
+    },
+    {
+      "abbreviation": "SSA",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Source Selection Authority"
+      ]
+    },
+    {
+      "abbreviation": "SSN",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Social Security Number"
+      ]
+    },
+    {
+      "abbreviation": "STTR",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Small Business Technology Transfer Program"
+      ]
+    },
+    {
+      "abbreviation": "T&M",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Time and Materials"
+      ]
+    },
+    {
+      "abbreviation": "TBA",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "To be Announced"
+      ]
+    },
+    {
+      "abbreviation": "TCO",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Termination Contracting Officer"
+      ]
+    },
+    {
+      "abbreviation": "TD",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Technology Development"
+      ]
+    },
+    {
+      "abbreviation": "T for C",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Termination for Convenience"
+      ]
+    },
+    {
+      "abbreviation": "T for D",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Termination for Default"
+      ]
+    },
+    {
+      "abbreviation": "TIN",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Taxpayer Identification Number"
+      ]
+    },
+    {
+      "abbreviation": "TINA",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Truth in Negotiations Act"
+      ]
+    },
+    {
+      "abbreviation": "TIPS",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Technical Information Packages"
+      ]
+    },
+    {
+      "abbreviation": "TQM",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Total Quality Management"
+      ]
+    },
+    {
+      "abbreviation": "TTN",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Technology Transfer Network"
+      ]
+    },
+    {
+      "abbreviation": "U/I",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Unit of Issue"
+      ]
+    },
+    {
+      "abbreviation": "UCC",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Universal Commercial Code"
+      ]
+    },
+    {
+      "abbreviation": "UPC",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Universal Product Code"
+      ]
+    },
+    {
+      "abbreviation": "USC",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "United States Code"
+      ]
+    },
+    {
+      "abbreviation": "USG",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "United States Government"
+      ]
+    },
+    {
+      "abbreviation": "V&V",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Verification and Validation"
+      ]
+    },
+    {
+      "abbreviation": "VAR",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Value Added Reseller"
+      ]
+    },
+    {
+      "abbreviation": "VC",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Venture Capital(ist)"
+      ]
+    },
+    {
+      "abbreviation": "VSC",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Vendor Support Center"
+      ]
+    },
+    {
+      "abbreviation": "WAWF",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Wide Area Work Flow"
+      ]
+    },
+    {
+      "abbreviation": "WBC",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Women\u2019s Business Centers"
+      ]
+    },
+    {
+      "abbreviation": "WBE",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Women\u2019s Business Enterprise"
+      ]
+    },
+    {
+      "abbreviation": "WBS",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Work Breakdown Structure"
+      ]
+    },
+    {
+      "abbreviation": "WOSB",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Woman-Owned Small Business"
+      ]
+    },
+    {
+      "abbreviation": "XO",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Executive Officer"
+      ]
+    },
+    {
+      "abbreviation": "YOB",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Year of Birth"
+      ]
+    },
+    {
+      "abbreviation": "YR",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Year"
+      ]
+    },
+    {
+      "abbreviation": "YTD",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Year to Date"
+      ]
+    },
+    {
+      "abbreviation": "ACE",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Aircraft Common Equipment"
+      ]
+    },
+    {
+      "abbreviation": "AIS",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Automatic Identification System"
+      ]
+    },
+    {
+      "abbreviation": "AMI",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Avionics Midlife Improvement"
+      ]
+    },
+    {
+      "abbreviation": "AMSS",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Aircraft Mission System Simulator"
+      ]
+    },
+    {
+      "abbreviation": "ATC",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Air Traffic Control"
+      ]
+    },
+    {
+      "abbreviation": "BFE",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Buyer Furnished Equipment"
+      ]
+    },
+    {
+      "abbreviation": "BIT",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Built In Test"
+      ]
+    },
+    {
+      "abbreviation": "BLOS",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Beyond Line of Sight"
+      ]
+    },
+    {
+      "abbreviation": "BRS",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Blue Ridge Simulation Inc."
+      ]
+    },
+    {
+      "abbreviation": "C2",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Command and Control"
+      ]
+    },
+    {
+      "abbreviation": "CDR",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Critical Design Review"
+      ]
+    },
+    {
+      "abbreviation": "CG",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Centre of Gravity"
+      ]
+    },
+    {
+      "abbreviation": "CIGI",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Common Image Generator Interface"
+      ]
+    },
+    {
+      "abbreviation": "CLS",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Contract Labor Support"
+      ]
+    },
+    {
+      "abbreviation": "COMINT",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Communications Intelligence"
+      ]
+    },
+    {
+      "abbreviation": "COMMS",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Communications System"
+      ]
+    },
+    {
+      "abbreviation": "CTE ",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Critical Technology Elements"
+      ]
+    },
+    {
+      "abbreviation": "DA",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Debrief Associate"
+      ]
+    },
+    {
+      "abbreviation": "DBGS",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Database Generation System"
+      ]
+    },
+    {
+      "abbreviation": "DDT",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Database Development Team"
+      ]
+    },
+    {
+      "abbreviation": "DESS",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Decisive Eye Strategic Simulator"
+      ]
+    },
+    {
+      "abbreviation": "DLP",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Data Link Processing"
+      ]
+    },
+    {
+      "abbreviation": "DSS",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Defensive Station Subsystem"
+      ]
+    },
+    {
+      "abbreviation": "DVD",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Digital Versatile Disc"
+      ]
+    },
+    {
+      "abbreviation": "E&S",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Evans and Sutherland"
+      ]
+    },
+    {
+      "abbreviation": "EGI",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Embedded GPS INS"
+      ]
+    },
+    {
+      "abbreviation": "ELINT",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Electronic Intelligence"
+      ]
+    },
+    {
+      "abbreviation": "EXG",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "External Effect Generator"
+      ]
+    },
+    {
+      "abbreviation": "FBFD",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Fixed Base Flight Deck"
+      ]
+    },
+    {
+      "abbreviation": "GPS/INS",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Global Positioning System / Inertial Navigation System"
+      ]
+    },
+    {
+      "abbreviation": "GSS",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Ground Station Simulator"
+      ]
+    },
+    {
+      "abbreviation": "GUI",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Graphical User Interface"
+      ]
+    },
+    {
+      "abbreviation": "HDP",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "High Definition Patch"
+      ]
+    },
+    {
+      "abbreviation": "HF",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "High Frequency"
+      ]
+    },
+    {
+      "abbreviation": "HW",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Hardware"
+      ]
+    },
+    {
+      "abbreviation": "I/O",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Input/Output"
+      ]
+    },
+    {
+      "abbreviation": "ICD",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Interface Control Document"
+      ]
+    },
+    {
+      "abbreviation": "ICS",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Interface Control Specification"
+      ]
+    },
+    {
+      "abbreviation": "IDD",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Interface Design Document"
+      ]
+    },
+    {
+      "abbreviation": "IFF",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Identification Friend or Foe"
+      ]
+    },
+    {
+      "abbreviation": "IG",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Image Generator"
+      ]
+    },
+    {
+      "abbreviation": "IMETS",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Integrated Maintenance and Engineering Tool Suite"
+      ]
+    },
+    {
+      "abbreviation": "IOS",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Instructor Operator Station"
+      ]
+    },
+    {
+      "abbreviation": "IP",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Internet Protocol"
+      ]
+    },
+    {
+      "abbreviation": "ISAR",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Inverse Synthetic Aperture Radar"
+      ]
+    },
+    {
+      "abbreviation": "ISR",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Intelligence Surveillance Reconnaissance"
+      ]
+    },
+    {
+      "abbreviation": "ITAR",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "International Traffic in Arms Regulations"
+      ]
+    },
+    {
+      "abbreviation": "JRE",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Joint Range Extension"
+      ]
+    },
+    {
+      "abbreviation": "JTIDS",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Joint Tactical Information Distribution System"
+      ]
+    },
+    {
+      "abbreviation": "JU",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Joint Tactical Information Distribution System Unit"
+      ]
+    },
+    {
+      "abbreviation": "KSA",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Kingdom of Saudi Arabia"
+      ]
+    },
+    {
+      "abbreviation": "LAN",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Local Area Network"
+      ]
+    },
+    {
+      "abbreviation": "LOROP",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "LOng Range Oblique Photography"
+      ]
+    },
+    {
+      "abbreviation": "LOS",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Line of Sight"
+      ]
+    },
+    {
+      "abbreviation": "LRU",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Line Replaceable Unit"
+      ]
+    },
+    {
+      "abbreviation": "MIDS",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Multifunctional Information Distribution System"
+      ]
+    },
+    {
+      "abbreviation": "MTI",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Moving Target Indicator"
+      ]
+    },
+    {
+      "abbreviation": "NITF",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "National Imagery Transmission Format"
+      ]
+    },
+    {
+      "abbreviation": "NPG",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Network Participation Groups"
+      ]
+    },
+    {
+      "abbreviation": "O&M",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Operation & Maintenance"
+      ]
+    },
+    {
+      "abbreviation": "OEM",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Original Equipment Manufacturer"
+      ]
+    },
+    {
+      "abbreviation": "OS",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Operating Systems"
+      ]
+    },
+    {
+      "abbreviation": "OSMT",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Offensive Station Mission Trainer"
+      ]
+    },
+    {
+      "abbreviation": "OTW",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Out The Window"
+      ]
+    },
+    {
+      "abbreviation": "OWS",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Operator Workstations"
+      ]
+    },
+    {
+      "abbreviation": "PC",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Personal Computer"
+      ]
+    },
+    {
+      "abbreviation": "PDR/CDR",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Preliminary Design Review/Critical Design Review"
+      ]
+    },
+    {
+      "abbreviation": "PDU/UPS",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Power Distribution Unit / Uninterruptible Power Supply"
+      ]
+    },
+    {
+      "abbreviation": "RBGM",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Real Beam Ground Map"
+      ]
+    },
+    {
+      "abbreviation": "RC/STS",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Rockwell Collins Simulation and Training Systems"
+      ]
+    },
+    {
+      "abbreviation": "RCS",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Radar Cross Section"
+      ]
+    },
+    {
+      "abbreviation": "RFI",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Request for Information"
+      ]
+    },
+    {
+      "abbreviation": "RFP",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Request for Proposal"
+      ]
+    },
+    {
+      "abbreviation": "RFT",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Ready For Training"
+      ]
+    },
+    {
+      "abbreviation": "RSAF",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Royal Saudi Air Force"
+      ]
+    },
+    {
+      "abbreviation": "RSS",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Radar Simulation System"
+      ]
+    },
+    {
+      "abbreviation": "RTVM",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Requirements Traceability & Verification Matrix"
+      ]
+    },
+    {
+      "abbreviation": "RVP",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Reconfigurable Video Processor"
+      ]
+    },
+    {
+      "abbreviation": "SAF",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Semi-Automated Forces"
+      ]
+    },
+    {
+      "abbreviation": "SAR",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Synthetic Aperture Radar"
+      ]
+    },
+    {
+      "abbreviation": "SATCOM",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Satellite Communications"
+      ]
+    },
+    {
+      "abbreviation": "SDD",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Software Design Document"
+      ]
+    },
+    {
+      "abbreviation": "SDRL",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Subcontractor Document Requirements List"
+      ]
+    },
+    {
+      "abbreviation": "SE",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "System Engineering"
+      ]
+    },
+    {
+      "abbreviation": "SIL",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "System Integration Lab"
+      ]
+    },
+    {
+      "abbreviation": "SLIN",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Subcontract Line Item Number"
+      ]
+    },
+    {
+      "abbreviation": "SRR",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "System Requirements Review"
+      ]
+    },
+    {
+      "abbreviation": "SSA",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Scalable System Architecture"
+      ]
+    },
+    {
+      "abbreviation": "SSOW",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Subcontractor Statement of Work"
+      ]
+    },
+    {
+      "abbreviation": "SSRD",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Subcontractor Specification Requirements Document"
+      ]
+    },
+    {
+      "abbreviation": "SVN",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Subversion"
+      ]
+    },
+    {
+      "abbreviation": "T&M",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Time & Material"
+      ]
+    },
+    {
+      "abbreviation": "TBA",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "To Be Announced"
+      ]
+    },
+    {
+      "abbreviation": "TBC",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "To Be Considered"
+      ]
+    },
+    {
+      "abbreviation": "TBD",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "To Be Determined"
+      ]
+    },
+    {
+      "abbreviation": "TRA",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Technology Readiness Assessment"
+      ]
+    },
+    {
+      "abbreviation": "TRL",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Technical Readiness Level"
+      ]
+    },
+    {
+      "abbreviation": "TRR",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Trainer Readiness Review"
+      ]
+    },
+    {
+      "abbreviation": "UK",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "United Kingdom"
+      ]
+    },
+    {
+      "abbreviation": "USAF",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "United States Air Force"
+      ]
+    },
+    {
+      "abbreviation": "USB",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Universal Serial Bus"
+      ]
+    },
+    {
+      "abbreviation": "V/UHF",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Very/Ultra High Frequency"
+      ]
+    },
+    {
+      "abbreviation": "VDN",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Virtual Data Network"
+      ]
+    },
+    {
+      "abbreviation": "VHF",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Very High Frequency"
+      ]
+    },
+    {
+      "abbreviation": "VOIP",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Voice Over Internet Protocol"
+      ]
+    },
+    {
+      "abbreviation": "WST",
+      "ignore": false,
+      "defaultindex": 0,
+      "fulltext": [
+        "Weapon System Trainer"
       ]
     }
   ],
@@ -33,8 +2993,8 @@
       "outfile": "",
       "format": "",
       "associatedFiles": [
-        "c:\\dev\\temp.docx",
-        "c:\\temp\\doc.docx"
+        "c:\\dev\emp.docx",
+        "c:\emp\\doc.docx"
       ],
       "database": [
         {
